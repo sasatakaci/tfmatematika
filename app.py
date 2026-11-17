@@ -50,7 +50,7 @@ def status(cid,sid):
 init()
 st.title('🎓 TF Matematika')
 st.caption('Nezavisna aplikacija za predmete, kolokvijume, ispitne rokove i položenе ispite · probna verzija')
-st.warning('Probna verzija: koristite samo izmišljene podatke. Lokalna SQLite baza nije trajno skladište na Streamlit Community Cloud-u. Za stvarne studentske podatke potrebni su autentifikacija, ovlašćenja i zaštićena cloud baza.')
+st.warning('Probna verzija')
 
 with st.sidebar:
     cs=rows('SELECT * FROM courses ORDER BY year DESC,name')
